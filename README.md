@@ -2,8 +2,8 @@
 Pahlawanku is an website for search Static API Data Indonesian Heroes >w< <br> Pahlawanku adalah sebuah website untuk mencari data statis pahlawan di indonesia
 
 # API
-- wikipedia
-- API pahlawan indonesia
+- wikipedia <br> https://en.wikipedia.org/
+- API lokal pahlawan indonesia <br> https://indonesia-public-static-api.vercel.app/api/heroes
 
 # Screenshot
 ![capapp](https://github.com/veldanava/Pahlawanku/assets/86060881/37018148-acd9-44aa-852a-475c784028c1)
