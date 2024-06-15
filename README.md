@@ -1,5 +1,5 @@
 # Pahlawanku
-Pahlawanku is an website for search Static API Data Indonesian Heroes >w< <br> Pahlawanku adalah sebuah website untuk mencari data statis pahlawan di indonesia menggunakan API statis lokal https://github.com/yogski/indonesia-public-static-api?tab=readme-ov-file#api-pahlawan-nasional-indonesia-apiheroes
+Pahlawanku is an website for search Static API Data Indonesian Heroes >w< <br> Pahlawanku adalah sebuah website untuk mencari data statis pahlawan di indonesia menggunakan API statis lokal https://github.com/yogski/indonesia-public-static-api?tab=readme-ov-file#api-pahlawan-nasional-indonesia-apiheroes dan wikipedia
 
 # API
 - wikipedia <br> https://en.wikipedia.org/
