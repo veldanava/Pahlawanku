@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="transition-colors duration-300">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pahlawanku</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Batman-512.png" type="image/x-icon">
+    <!-- tailwindCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<!-- main -->
+<body class="bg-gray-800 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col items-center transition-colors duration-300">
+    <header class="bg-blue-600 dark:bg-blue-800 w-full py-4 shadow-md">
+        <h1 class="text-white text-3xl font-bold text-center">Pahlawanku</h1>
+        <p class="text-white text-2xl text-center">Pahlawanku is an website for search Static API Data Indonesian Heroes >w<</p>
+        <p class="text-white text-1xl text-center">
+          <a href="https://indonesia-public-static-api.vercel.app/api/heroes">>Link API Indonesian Heroes<</a>
+          <a href="https://en.wikipedia.org/">>Link API Wikipedia<</a>
+        </p>
+    </header>
+    <main class="w-full flex flex-col items-center mt-10">
+      <!-- searhbar -->
+        <div class="w-full max-w-md">
+            <h1 class="text-white text-1xl text-center p-2">jika data pahlawan tidak muncul, gunakan list data nama pahlawan yang berada di API</h1>
+            <input id="searchInput" type="text" placeholder="Search hero by name..." class="w-full p-4 rounded-lg border border-gray-300 dark:border-gray-700 mb-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+            <!-- button searchbar -->
+            <button id="searchButton" class="w-full p-4 bg-blue-600 dark:bg-blue-700 text-white rounded-lg">Search</button>
+        </div>
+        <!-- list data pahlawan -->
+        <div id="heroInfo" class="mt-10 w-full max-w-md bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hidden flex flex-col md:flex-row items-start md:items-center">
+            <div class="md:flex-1">
+              <!-- data static -->
+                <h2 id="heroName" class="text-2xl font-bold mb-4"></h2>
+                <p id="heroBirthDate" class="text-gray-600 dark:text-gray-400"></p>
+                <p id="heroDeathDate" class="text-gray-600 dark:text-gray-400"></p>
+                <p id="heroDescription" class="mt-4 text-gray-800 dark:text-gray-200"></p>
+            </div>
+            <div class="md:ml-6 md:flex-shrink-0">
+              <!-- data gambar pahlawan -->
+                <img id="heroImage" src="" alt="Hero Image" class="w-32 h-32 md:w-48 md:h-48 object-cover rounded-lg">
+            </div>
+        </div>
+    </main>
+    <!-- API -->
+    <script src="api.js"></script>
+</body>
+</html>
